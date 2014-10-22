@@ -48,6 +48,15 @@ table {
 Theme Styles
 *******************************************************************************/
 
+
+html, body {
+  height:100%;
+}
+
+html {
+    overflow-y:scroll;
+}
+
 body {
     font-family:Helvetica, Arial, sans-serif;
     box-sizing: border-box;
