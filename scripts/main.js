@@ -1,1 +1,8 @@
-console.log('This would be the main JS file.');
+
+
+$(document).ready(function(){
+
+	$('body').css('background','yellow');
+
+	console.log('js ready.');	
+});
