@@ -1,4 +1,0 @@
-slackwise
-=========
-
-slackwise github repository. 
