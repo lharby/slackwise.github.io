@@ -1,8 +1,11 @@
-
-
 $(document).ready(function(){
 
-	$('body').css('background','yellow');
+	// make console logging not break
+	if(typeof console === "undefined"){
+    	console = { 
+			log: function(){} 
+		};
+  	}
+	console.log("js available");
 
-	console.log('js ready.');	
 });
