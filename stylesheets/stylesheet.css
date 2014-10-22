@@ -49,6 +49,7 @@ Theme Styles
 *******************************************************************************/
 
 body {
+    font-family:Helvetica, Arial, sans-serif;
     box-sizing: border-box;
     background:#EEE;
 }
@@ -56,4 +57,6 @@ body {
 .page-wrapper {
     max-width:1200px;
     background:#FFF;
+    margin:0 auto;
+    height:100%;
 }
